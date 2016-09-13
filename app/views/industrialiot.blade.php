@@ -52,87 +52,95 @@
 		<div class = "row">
 			<div class = "col-lg-12">
 				<p>
-					For companies with the right mindset, Internet of Things platforms and technologies will open up major opportunities for improved asset performance, new service offerings, improved operational efficiency, and completely new ways of offering value to customers.
-				</p>
-				<p>
 					In this extremely dynamic, complex, and fast-moving space, Blrlab's Industrial Internet of Things (IIoT) Advisory Service provides the intelligence you need to incorporate the latest IIoT-related developments and best practices into your strategies.
 				</p>				
 
 				<h3>
-					Industrial Companies Need IIoT:
+					BLR Labs Approach to IIoT:
 				</h3>
 
 				<p>
-					With BlrLab's help, technology users may be able to dramatically improve both asset performance and operating performance through the use of IIoT technologies.  IIoT can  improve:
+					In general, many businesses want to use the Internet of Things – in this context, the Industrial Internet of Things (IIoT) – to monitor data streams that will them how their products are being used, how their products are doing in the market, provide visibility into internal operations that can be used to optimize operations for efficiency and effectiveness. This means data from an IoT sensor network will be used for decision-making, generally at varying time scales. Some data may be used for immediate, real-time decision-making and others for decision timescales of the order of days, weeks, months and even years.	
 				</p>
+
+				<p>
+					On a transport side let’s say a train, decision-making times are of the order of milliseconds up to hours or days. BLR Labs approaches this by using a model for processing data that is multi-layered - it is based on a model for input processing by human beings, called the Satir model. The simplified version is shown below.	
+				</p>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class = "col-lg-12 text-center">
+				<img class="img-responsive"
+					style=""
+					src="assets/industrial-iot/page2.png" alt="home-automation-img">
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "col-lg-12">
+				<p>
+					Our designs emphasize extracting “meaning” close to the sensors so systems can react quickly, and extraction of “significance” can happen further away from sensors to facilitate learning and longer cycle time decision-making.	
+				</p>				
+
+				<p>
+					Our approach provides flexibility in decision making, response times and learning cycles. In general, our designs will feature a combination of local processing hubs and one or more hierarchical processing layers above the local. Since the problem domain determines both “meaning” and “significance”, domain specific models drive our processing and learning hubs.
+				</p>				
+
+				<h2>
+					Problem & Opportunity:
+				</h2>
+
+				<h3>
+					IIoT – Enterprise Pain Points:
+				</h3>
+
+				<p>
+					Many small and medium companies are confused about rolling out IoT for their customers, and rolling out IoT internally.
+				</p>				
 
 				<ul class="imagebullets">
 					<li>
-						Asset Health & Uptime.
+						These SME companies do not understand how they can integrate their operational infrastructure with their enterprise infrastructure.
 					</li>
 					<li>
-						Operating Performance.
+						Further, they also do not understand they can integrate IoT into the products and services they offer to their customers.
 					</li>
-					<li>
-						Safety and Risk Management.
-					</li>
-					<li>
-						Logistics.
-					</li>
-					<li>
-						Worker Experience.
-					</li>
-					<li>
-						Business Processes.
-					</li>	
 				</ul>
 
 				<h3>
-					Machinery Manufacturers Need IIoT:
+					Key Issue Areas:
 				</h3>
 
 				<p>
-					Industrial Machine manufacturers can potentially grow their business by introducing digitized products and expanding their aftermarket services.  BlrLab helps machinery manufacturers make decisions about technologies and technology providers, potential new service opportunities enabled by the Industrial Internet of Things, and competitive strategy and positioning.
-				</p>
-
-				<h3>
-					Technology Suppliers Need IIoT:
-				</h3>
-
-				<p>
-					BlrLabs helps technology suppliers define and implement their competitive strategy for the Industrial Internet of Things (IIoT).  Our service helps core technology suppliers position their products for industrial markets, identify strategic partners, and target high potential market opportunities.  It helps software, automation, and implementation companies to identify and shape high value IIoT solutions for their industrial customers.
-				</p>
-				<p>
-					BlrLab provides guidance on:
-				</p>			
+					With the number of IoT devices expected to grow exponentially within the enterprise, integration and management become key concerns. Specific areas of concern with respect to integration & management are.
+				</p>				
 
 				<ul class="imagebullets">
 					<li>
-						Go-to-Market Strategy.
+						Security
 					</li>
 					<li>
-						Product Development.
+						Deployment – how can mass deployments be made seamless & painless?
 					</li>
 					<li>
-						Partnering.
+						Integration & Configuration – deployed IoT solutions have to be integrated into enterprise infrastructure  configured correctly so data flows right.												
 					</li>
 					<li>
-						Competitive Strategy.
+						Management – these deployments need to be managed to detect anomalies in infrastructure and data flows.
 					</li>
-					<li>
-						Worker Experience.
-					</li>
-					<li>
-						Business Processes.
-					</li>	
+
 				</ul>
 
+				<h3>
+					Managed Services:
+				</h3>
+
 				<p>
-					With Blrlab's Industrial IoT Advisory Service, you have the information and analysis to improve your day-to-day decision making and strategic planning.  Plus, you have direct access to the industry's leading experts for best practices in Industrial Internet of Things, asset management technologies, and aftermarket services.
-				</p>
-				<p>
-					Our experienced team of analysts and consultants does more than write reports and analyze market trends; we also offer personal contact and expert consultation customized to your specific needs.  You can gain from BlrLab's thought leadership through our Advisory Services.
-				</p>
+					We will make integration, deployment, configuration and security a painless experience for customers who are deploying IIoT solutions, especially our own solutions. In addition, we will provide such solutions to help enterprises manage the IoT solutions they provide to their customers. We will do this with capabilities developed from ASIC level all the way to cloud infrastructure.
+				</p>				
+
 			</div>
 		</div>
 
