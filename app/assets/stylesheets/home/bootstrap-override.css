@@ -1,0 +1,130 @@
+.img-responsive {
+    margin: 0 auto;
+}
+
+/* set the transparent background for navbar-inverse */
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.99) ! important;
+}
+
+.navbar-footer {
+    background-color: rgba(0, 0, 0, 0.99) ! important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #FFF;
+}
+
+/* config for menu options when hover for mobile */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+}  
+
+/* config for menu options which are active when hover for both laptop and mobile */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FFF ! important;
+} 
+
+/**********************************************************************************
+ *  MOBILE Configuration for menu background foreground colors.
+ ***********************************************************************************/
+/* set the transparent background for navbar-inverse */
+.navbar-inverse {
+    background-image: none ! important;
+    background-color: rgba(255, 255, 255, 0.99) ! important;
+    border-color: rgba(0, 0, 0, 0.50) ! important;
+}
+
+/* set the navbar text color */
+.navbar-inverse .navbar-text {
+    /*color: #FFFFFF ! important;*/
+    color: #000 ! important;
+}
+
+/* set menu options color */
+.navbar-inverse .navbar-nav>li>a {
+    /*color: #FFFFFF;*/
+    color: #000;
+}
+
+/* effects for mainmenu options on hover */
+.navbar-inverse .navbar-nav>li>a:hover {
+    /*color: #FFFFFF;*/
+    color: #000;
+    font-weight: 800;
+}
+
+/* change the dropdown menu focus and hover color  */
+.dropdown-menu>li > a:focus, .dropdown-menu > li > a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    /*background-color: #f5f5f5;*/
+    background-image: none ! important;
+    background-color: rgba(0, 0, 0, 0.50) ! important;
+    border-color: rgba(0, 0, 0, 0.50) ! important;    
+}
+
+/**********************************************************************************
+ * 
+ ***********************************************************************************/
+
+/* alignment configurations for laptop/desktop */
+@media screen and (min-width: 1201px) {
+
+    /* set the transparent background for navbar-inverse */
+    .navbar-inverse {
+    	background-image: none ! important;
+        background-color: rgba(255, 255, 255, 0.75) ! important;
+        border-color: rgba(0, 0, 0, 0.50) ! important;
+    }
+
+    /* set the navbar text color */
+    .navbar-inverse .navbar-text {
+        /*color: #FFFFFF ! important;*/
+        color: #000 ! important;
+    }
+
+    /* set menu options color */
+    .navbar-inverse .navbar-nav>li>a {
+        /*color: #FFFFFF;*/
+        color: #000;
+    }
+
+    /* effects for mainmenu options on hover */
+    .navbar-inverse .navbar-nav>li>a:hover {
+        /*color: #FFFFFF;*/
+        color: #000;
+        font-weight: 800;
+    }
+
+    /* change the dropdown menu focus and hover color  */
+    .dropdown-menu>li > a:focus, .dropdown-menu > li > a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+        /*background-color: #f5f5f5;*/
+    	background-image: none ! important;
+        background-color: rgba(0, 0, 0, 0.50) ! important;
+        border-color: rgba(0, 0, 0, 0.50) ! important;    
+    }
+
+    /* to adjust the height of navbar fixed */
+    .navbar-brand,
+    .navbar-collapse > ul > li > a {
+        line-height: 70px;
+        height: 70px;
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    /* to adjust the height of navbar fixed */
+    .navbar-brand,
+    .navbar-collapse > ul > li > a {
+        font-size: 18px;
+    }    
+}

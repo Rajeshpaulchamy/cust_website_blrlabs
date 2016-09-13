@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.woff) format('woff');
+	/*src: local('Open Sans Light'), local('OpenSans-Light'), url('file:///D:/myfiles/person-docs/oora/from_cust/blr_labs/bkup/011/assets/fonts/OpenSans-Light.woff') format('woff');*/
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');
+	/*src: local('Open Sans'), local('OpenSans'), url('file:///D:/myfiles/person-docs/oora/from_cust/blr_labs/bkup/011/assets/fonts/OpenSans.woff') format('woff');*/
+}
+
+@font-face {
+	font-family: 'Lato-Regular';
+	font-weight: 400;
+	font-style: normal;
+	src: url(../fonts/Lato-Regular/Lato-regular.eot);
+	src: url(../fonts/Lato-Regular/Lato-regular.eot?#iefix) format('embedded-opentype'),
+			 local('Lato Regular'),
+			 local('Lato-regular'),
+			 url(../fonts/Lato-Regular/Lato-regular.woff2) format('woff2'),
+			 url(../fonts/Lato-Regular/Lato-regular.woff) format('woff'),
+			 url(../fonts/Lato-Regular/Lato-regular.ttf) format('truetype'),
+			 url(../fonts/Lato-Regular/Lato-regular.svg#Lato-Regular) format('svg');
+}
+
+@font-face {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-style: normal;
+	src: url(../fonts/Raleway-700/Raleway-700.eot);
+	src: url(../fonts/Raleway-700/Raleway-700.eot?#iefix) format('embedded-opentype'),
+			 local('Raleway Bold'),
+			 local('Raleway-700'),
+			 url(../fonts/Raleway-700/Raleway-700.woff2) format('woff2'),
+			 url(../fonts/Raleway-700/Raleway-700.woff) format('woff'),
+			 url(../fonts/Raleway-700/Raleway-700.ttf) format('truetype'),
+			 url(../fonts/Raleway-700/Raleway-700.svg#Raleway) format('svg');
+}

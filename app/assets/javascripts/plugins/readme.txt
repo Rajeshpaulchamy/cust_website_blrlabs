@@ -1,0 +1,1 @@
+here the "fonts" folder is required only for "local" environment, not required in "production" environment

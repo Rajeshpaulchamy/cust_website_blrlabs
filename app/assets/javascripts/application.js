@@ -10,6 +10,11 @@
 //
 // The available directives right now are require, require_directory, and require_tree
 //
-//= require appl
-
+//= require plugins/jquery/jquery
+//= require plugins/bootstrap/bootstrap
+//= require plugins/crosscover/crosscover
+//= require plugins/smartmenu/jquery.smartmenus
+//= require plugins/smartmenu/jquery.smartmenus.bootstrap
+//= require plugins/cookie/jquery-cookie
+//= require home/home
 

@@ -1,25 +1,128 @@
-## Laravel PHP Framework
+# DB COMMANDS
+## Create migrate table in to mySQL database
+`php artisan migrate:install`
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Create the migration for the User table with default template
+`php artisan migrate:make create_users --create="users"`
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+## Update the migration in to mySQL database
+`php artisan migrate`
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+### Create anothermigration to change the schema for the User table (It will create a new migration file with the name 'add_title_to_users')
+`php artisan migrate:make add_title_to_users`
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Update the migration in to mySQL database
+`php artisan migrate`
 
-## Official Documentation
+# OTHER COMMANDS
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+Help URL: https://phpraxis.wordpress.com/2014/07/04/getting-started-with-laravel-4-on-ubuntu-installation-and-configuration/
 
-### Contributing To Laravel
+## install open SSH
+```
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo ufw allow 22
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+sudo apt-get -y install php5 mysql-server mysql-client phpmyadmin php5-curl curl git openssl
+sudo php5enmod mcrypt
 
-### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+cd ~
+mkdir projects
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/projects.local.conf
+
+sudo vim /etc/apache2/sites-available/projects.local.conf
+```
+## Replace the above file with the below contents
+```
+		<VirtualHost projects.local>
+		 
+			ServerName projects.local
+			ServerAlias projects.local
+		 
+			ServerAdmin myserver@localhost
+			DocumentRoot /home/rajesh/projects/laravel
+			 
+			<Directory /home/rajesh/projects/laravel>
+				Options -MultiViews
+				DirectoryIndex index.php
+				Options Indexes FollowSymLinks
+				AllowOverride All
+				Require all granted
+
+			RewriteEngine On
+
+			RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteRule ^(.*)$ index.php [QSA,L]
+
+			</Directory>
+		 
+			ErrorLog ${APACHE_LOG_DIR}/error.log
+			CustomLog ${APACHE_LOG_DIR}/access.log combined
+		 
+		</VirtualHost>
+```
+```
+sudo a2ensite projects.local.conf
+sudo a2enmod rewrite
+sudo service apache2 restart
+
+sudo vim /etc/hosts
+```
+
+## Add the below lines
+```
+	127.0.0.1       projects.local
+	192.168.1.8		projects.local
+```
+
+## In Windows 7 "C:\Windows\system32\drivers\etc\hosts" Add the below lines
+```
+	192.168.1.8		projects.local
+```
+
+```
+cd ~/projects
+mkdir temp
+cd temp	
+sudo curl -sS https://getcomposer.org/installer | sudo php
+sudo mv composer.phar /usr/local/bin/composer
+rm -rf temp
+```
+
+## Install Laravel stable version
+```
+composer create-project laravel/laravel laravel --prefer-dist
+chmod -R 777 laravel/storage
+
+mv public/* . && rm -rf public
+vim index.php
+```
+
+Open the index.php in the laravel folder in a text editor and replace the two occurrences of __DIR__.'/../bootstrap/autoload.php' with __DIR__.'/bootstrap/autoload.php'. Essentially, you are removing /.. from the path. Save the index.php file.
+
+## To run the php server
+`php artisan serve --host 192.168.1.5 --port 8080`
+
+## To minimize the js and css
+```
+php artisan assets:setup
+php artisan assets:generate
+```
+
+## to optimize the jpeg
+`php artisan ImageOptimize`
+
+# HTML file Optimization is not yet done
+
+## Give permissions
+```
+sudo chmod -R 777 app/storage/
+sudo chmod -R 775 app/assets/stylesheets/
+sudo chmod -R 775 app/assets/images/
+```
+

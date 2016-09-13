@@ -1,0 +1,132 @@
+
+body {
+	-webkit-font-smoothing: antialiased;
+	background-color: rgb(255, 255, 255);
+	box-sizing: border-box;
+	/*color: rgb(102, 102, 102);*/
+	display: block;
+	font-family: 'Open Sans' !important;
+	/*font-size: 14px;*/
+	height: 3404.39px;
+	/*line-height: 20px;*/
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+
+	font-size: 14px;
+	/*font-weight: 300;*/
+	height: 26px;
+	line-height: 21px;
+	color: #000;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-family:'Raleway';
+	font-weight:600;
+	color:#414141;
+
+	/*margin: 0 0 30px 0;*/
+	line-height:1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.logo-image {
+	width: 150px;
+	margin-top: -16px !important;
+	max-height: 48px;
+}
+
+@media screen and (min-width: 768px) {
+	.logo-image {
+	    width: 160px;
+	    margin-top: -2px !important;
+	    max-height: 62px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.logo-image {
+		width: 200px;
+		max-height: 63px;
+		margin-top: 3px ! important;
+		/*padding: 5px;*/
+	}
+}
+
+.vcenter {
+	float:none;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:-4px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.row-odd {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.row-even {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #F4F4F4;
+}
+
+.quote {
+	font-family:'Lato-Regular'; 
+	font-size: 21px;
+	color: #0077a2;
+}
+
+.highlight {
+	border: 1px solid #005cb9;
+	background-color: #f1f5f9;
+	overflow: auto;
+	margin-bottom: 1.7em;
+	padding: 1em!important;
+}
+
+.highlight2 {
+	background-color: black;
+	color: #2DBBF1;
+	font-style: italic;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.imagebullets > li {
+	background: url("bulletpoints.png") left 5px no-repeat;
+	/*background: url("bulletpoints.gif") left 5px no-repeat;*/
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 18px;
+	list-style: none;
+}
+
+/* to set the scroll position */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+

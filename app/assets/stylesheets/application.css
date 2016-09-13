@@ -9,5 +9,17 @@
  * gets included (e.g. say you have require_tree . then the code will appear after all the directories 
  * but before any files alphabetically greater than 'application.css' 
  *
- *= require appl
+ *= require home/font
+ *= require plugins/bootstrap/bootstrap
+ *= require plugins/bootstrap/font-awesome
+ *= require plugins/bootstrap/bootstrap-social
+ *= require plugins/smartmenu/jquery.smartmenus.bootstrap
+ *= require home/crosscover-override
+ *= require home/bootstrap-override
+ *= require home/theme
+ *= require home/team
+ *= require home/footer
+ *= require home/googlemap
+ *= require plugins/animate/animate
+ *= require plugins/crosscover/crosscover 
  */
