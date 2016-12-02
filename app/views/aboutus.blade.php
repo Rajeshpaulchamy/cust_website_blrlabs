@@ -59,7 +59,7 @@
 
 			<div class="row">
 
-				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+				<!--<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
 						<div class="team-img">
 							<img class="img-responsive"  src="assets/team/amarnath.jpg" alt="ravishankar">
@@ -68,17 +68,14 @@
 							<h3 style="min-height: 70px;">N S Amarnath</h3>
 							<span style="font-weight: 800;">PRESIDENT</span>
 						</div>
-						<!-- <p>
-							A technology & social entrepreneur with 15+ years, 50 tapeout experience in Physical Design of Asics. Started entrepreneurial journey in 2010 with Blackpepper technologies, co-founded Actifolks Network & now in this journey of kick starting BLRLABS
-						</p> -->
-						<ul class="social-icons">
+										<ul class="social-icons">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
 							<li><a href="https://www.linkedin.com/in/n-s-amarnath-72b1ba4?authType=NAME_SEARCH&authToken=ivBY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A12439187%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1466567648141%2Ctas%3AN%20S"><i class="fa fa-linkedin"></i></a></li>&nbsp;
 						</ul>
 					</div>
-				</div>
+				</div>-->
 
 				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
