@@ -162,7 +162,7 @@
 							<li><a href="https://cn.linkedin.com/in/avinash-kale-b42253a"><i class="fa fa-linkedin"></i></a></li>&nbsp;
 						</ul>
 					</div>
-				</div> -->
+				</div> 
 
 				<div class="col-lg-4 col-sm-6" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
@@ -173,9 +173,9 @@
 							<h3 style="min-height: 70px;">Siba Prasad</h3>
 							<span style="font-weight: 800;">CSO</span>
 						</div>
-						<!-- <p>
+						<p>
 							A multi-skilled business focused IT/Digital/Multi channel project consultant with more than 12 years of experience in the ecommerce, insurance,BFS , telecom ,mobility industry sectors managing projects with team size of 10 to 50 individuals.
-						</p> --> 
+						</p>  
 						<ul class="social-icons">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
@@ -183,7 +183,7 @@
 							<li><a href="https://in.linkedin.com/in/siba-prasad-a775091b"><i class="fa fa-linkedin"></i></a></li>&nbsp;
 						</ul>
 					</div>
-				</div>
+				</div>-->
 
 				<div class="col-lg-4 col-sm-6" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
