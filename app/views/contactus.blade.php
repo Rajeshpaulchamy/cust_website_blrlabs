@@ -94,7 +94,7 @@
 
 				<p class="lead">
 					<strong>Phone:</strong>
-					<br> +91-80-64510319
+					<br> +91-9880703082
 				</p>
 
 				<p class="lead">
