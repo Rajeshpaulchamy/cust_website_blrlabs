@@ -16,6 +16,7 @@
 
 					<li id="nav-about-us"><a href="{{ url('about-us') }}/#about-us">About-Us</a></li>
 
+					<!--
 					<li class="dropdown" id="nav-solutions">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">Solutions <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -38,7 +39,6 @@
 								<a href="" class="dropdown-toggle" data-toggle="dropdown">Embedded Software<b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="{{ url('bsp') }}">Board Support Package (BSP)</a></li>
-									<!-- <li><a href="{{ url('under-construction') }}">Linux & RTOS Platform Software</a></li> -->
 									<li><a href="{{ url('systemintegration') }}">System Integration etc</a></li>
 								</ul>
 							</li>
@@ -51,7 +51,7 @@
 							</li>
 							<li><a href="{{ url('smac') }}">SMAC</a></li>
 						</ul>
-					</li>					
+					</li>-->					
 
 					<li id="nav-casestudy"><a href="{{ url('case-study') }}">Case Study</a></li>
 					<li id="nav-careers"><a href="{{ url('careers') }}">Careers</a></li>

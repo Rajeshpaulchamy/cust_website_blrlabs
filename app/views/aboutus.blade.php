@@ -59,23 +59,84 @@
 
 			<div class="row">
 
-				<!--<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
 						<div class="team-img">
-							<img class="img-responsive"  src="assets/team/amarnath.jpg" alt="ravishankar">
+							<img class="img-responsive"  src="assets/team/swarupa.jpg" alt="ravishankar">
 						</div>
 						<div class="team-info">
-							<h3 style="min-height: 70px;">N S Amarnath</h3>
-							<span style="font-weight: 800;">PRESIDENT</span>
+							<h3 style="min-height: 70px;">Swarupa Kakumanu</h3>
+							<span style="font-weight: 800;">Chief Delivery Officer</span>
 						</div>
-										<ul class="social-icons">
+						<ul class="social-icons">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
-							<li><a href="https://www.linkedin.com/in/n-s-amarnath-72b1ba4?authType=NAME_SEARCH&authToken=ivBY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A12439187%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1466567648141%2Ctas%3AN%20S"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>&nbsp;
 						</ul>
 					</div>
-				</div>-->
+				</div>
+
+				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
+						<div class="team-img">
+							<img class="img-responsive"  src="assets/team/vivek.jpg" alt="ravishankar">
+						</div>
+						<div class="team-info">
+							<h3 style="min-height: 70px;">Vivek Saxena</h3>
+							<span style="font-weight: 800;">Chief Marketing Officer</span>
+						</div>
+						<ul class="social-icons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 200ms; animation-name: fadeInUp;">
+						<div class="team-img">
+							<img class="img-responsive" src="assets/team/vivekanand.jpg" alt="">
+						</div>
+						<div class="team-info">
+							<h3 style="min-height: 70px;">Vivekanand Srikantaiah</h3>
+							<span style="font-weight: 800;">Chief Relationship Officer</span>
+						</div>
+						<!-- <p>
+							Versatile, analytical and hard working test engineering and quality assurance professional with 15 years' solid experience. Co-founder Blackpepper, Whitefield school.
+						</p>  -->
+						<ul class="social-icons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
+							<li><a href="https://in.linkedin.com/in/vivekanands"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6" style="padding-bottom: 15px;">
+					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
+						<div class="team-img">
+							<img class="img-responsive"  src="assets/team/harsha.jpg" alt="">
+						</div>
+						<div class="team-info">
+							<h3 style="min-height: 70px;">Harsha Bagur</h3>
+							<span style="font-weight: 800;">Head of Solutions</span>
+						</div>
+						<!-- <p>
+							Seasoned Professional with rich experience in Technology Roadmap, Software & Systems Architecture, Requirements Management, Software Design & Development for Telecom (Mobile handsets) and Real-Time Embedded Systems (Telematics & Infotainment - Automotive).
+						</p>  -->
+						<ul class="social-icons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
+							<li><a href="https://de.linkedin.com/in/harshabagur"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+						</ul>
+					</div>
+				</div>				
+
 
 				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
@@ -98,7 +159,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+				<!-- <div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
 						<div class="team-img">
 							<img class="img-responsive"  src="assets/team/binay.jpg" alt="">
@@ -107,9 +168,7 @@
 							<h3 style="min-height: 70px;">Binaya Kumar Dhar</h3>
 							<span style="font-weight: 800;">COO</span>
 						</div>
-						<!-- <p>
-							Entrepreneur with 13 years experience. Founder Caiex global, Co-founder Waterfase Solutions.
-						</p> --> 
+					
 						<ul class="social-icons">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
@@ -119,7 +178,7 @@
 					</div>
 				</div>
 
-				<!-- <div class="col-lg-3 col-sm-6" style="padding-bottom: 15px;">
+				<div class="col-lg-3 col-sm-6" style="padding-bottom: 15px;">
 					<div class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 100ms; animation-name: fadeInUp;">
 						<div class="team-img">
 							<img class="img-responsive"  src="assets/team/nagarajan.jpg" alt="">
@@ -181,48 +240,6 @@
 						</ul>
 					</div>
 				</div>-->
-
-				<div class="col-lg-4 col-sm-6" style="padding-bottom: 15px;">
-					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
-						<div class="team-img">
-							<img class="img-responsive"  src="assets/team/harsha.jpg" alt="">
-						</div>
-						<div class="team-info">
-							<h3 style="min-height: 70px;">Harsha Bagur</h3>
-							<span style="font-weight: 800;">CTO</span>
-						</div>
-						<!-- <p>
-							Seasoned Professional with rich experience in Technology Roadmap, Software & Systems Architecture, Requirements Management, Software Design & Development for Telecom (Mobile handsets) and Real-Time Embedded Systems (Telematics & Infotainment - Automotive).
-						</p>  -->
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
-							<li><a href="https://de.linkedin.com/in/harshabagur"><i class="fa fa-linkedin"></i></a></li>&nbsp;
-						</ul>
-					</div>
-				</div>				
-
-				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
-					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 200ms; animation-name: fadeInUp;">
-						<div class="team-img">
-							<img class="img-responsive" src="assets/team/vivekanand.jpg" alt="">
-						</div>
-						<div class="team-info">
-							<h3 style="min-height: 70px;">Vivekanand Srikantaiah</h3>
-							<span style="font-weight: 800;">CRO</span>
-						</div>
-						<!-- <p>
-							Versatile, analytical and hard working test engineering and quality assurance professional with 15 years' solid experience. Co-founder Blackpepper, Whitefield school.
-						</p>  -->
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
-							<li><a href="https://in.linkedin.com/in/vivekanands"><i class="fa fa-linkedin"></i></a></li>&nbsp;
-						</ul>
-					</div>
-				</div>
 
 				<!-- <div class="col-lg-3 col-sm-6" style="padding-bottom: 15px;">
 					<div class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
