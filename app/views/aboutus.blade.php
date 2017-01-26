@@ -62,6 +62,48 @@
 				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
 						<div class="team-img">
+							<img class="img-responsive"  src="assets/team/ravishankar.jpg" alt="ravishankar">
+						</div>
+						<div class="team-info">
+							<h3 style="min-height: 70px;">Ravishankar Balasubramanian</h3>
+							<span style="font-weight: 800;">CEO</span>
+						</div>
+						<!-- <p>
+							A technology & social entrepreneur with 15+ years, 50 tapeout experience in Physical Design of Asics. Started entrepreneurial journey in 2010 with Blackpepper technologies, co-founded Actifolks Network & now in this journey of kick starting BLRLABS
+						</p> -->
+						<ul class="social-icons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
+							<li><a href="https://www.linkedin.com/in/ravishankar-balasubramanian-2679485"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 200ms; animation-name: fadeInUp;">
+						<div class="team-img">
+							<img class="img-responsive" src="assets/team/vivekanand.jpg" alt="">
+						</div>
+						<div class="team-info">
+							<h3 style="min-height: 70px;">Vivekanand Srikantaiah</h3>
+							<span style="font-weight: 800;">Chief Relationship Officer</span>
+						</div>
+						<!-- <p>
+							Versatile, analytical and hard working test engineering and quality assurance professional with 15 years' solid experience. Co-founder Blackpepper, Whitefield school.
+						</p>  -->
+						<ul class="social-icons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
+							<li><a href="https://in.linkedin.com/in/vivekanands"><i class="fa fa-linkedin"></i></a></li>&nbsp;
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
+					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
+						<div class="team-img">
 							<img class="img-responsive"  src="assets/team/swarupa.jpg" alt="ravishankar">
 						</div>
 						<div class="team-info">
@@ -95,27 +137,6 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
-					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 200ms; animation-name: fadeInUp;">
-						<div class="team-img">
-							<img class="img-responsive" src="assets/team/vivekanand.jpg" alt="">
-						</div>
-						<div class="team-info">
-							<h3 style="min-height: 70px;">Vivekanand Srikantaiah</h3>
-							<span style="font-weight: 800;">Chief Relationship Officer</span>
-						</div>
-						<!-- <p>
-							Versatile, analytical and hard working test engineering and quality assurance professional with 15 years' solid experience. Co-founder Blackpepper, Whitefield school.
-						</p>  -->
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
-							<li><a href="https://in.linkedin.com/in/vivekanands"><i class="fa fa-linkedin"></i></a></li>&nbsp;
-						</ul>
-					</div>
-				</div>
-
 				<div class="col-lg-4 col-sm-6" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
 						<div class="team-img">
@@ -136,28 +157,6 @@
 						</ul>
 					</div>
 				</div>				
-
-
-				<div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
-					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 0ms; animation-name: fadeInUp;">
-						<div class="team-img">
-							<img class="img-responsive"  src="assets/team/ravishankar.jpg" alt="ravishankar">
-						</div>
-						<div class="team-info">
-							<h3 style="min-height: 70px;">Ravishankar Balasubramanian</h3>
-							<span style="font-weight: 800;">CEO</span>
-						</div>
-						<!-- <p>
-							A technology & social entrepreneur with 15+ years, 50 tapeout experience in Physical Design of Asics. Started entrepreneurial journey in 2010 with Blackpepper technologies, co-founded Actifolks Network & now in this journey of kick starting BLRLABS
-						</p> -->
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>&nbsp;
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&nbsp;
-							<li><a href="https://www.linkedin.com/in/ravishankar-balasubramanian-2679485"><i class="fa fa-linkedin"></i></a></li>&nbsp;
-						</ul>
-					</div>
-				</div>
 
 				<!-- <div class="col-lg-4 col-sm-6 text-center" style="padding-bottom: 15px;">
 					<div style="max-width: 300px;" class="team-member wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 400ms; animation-delay: 300ms; animation-name: fadeInUp;">
